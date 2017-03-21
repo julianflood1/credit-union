@@ -12,7 +12,7 @@
       <div class="container">
         <div class="col-md-6">
           <h2><strong>Register a new account:</strong></h2>
-          <form>
+          <form id="newAccount">
             <div class="form-group">
               <label for="name">Name:</label>
               <input id="name" class="form-control" type="text">
@@ -22,11 +22,13 @@
               <input id="initial" class="form-control" type="text">
             </div>
             <button type="submit" class="btn btn info">Click to register!</button>
+          </form>
         </div>
 
         <div class="col-md-6">
-          <h2><strong>Deposit or withdraw funds:</strong></h2>
           <form>
+          <h2><strong>Deposit or withdraw funds:</strong></h2>
+          <form id="accountChange">
             <div class="form-group">
               <label for="deposit">Deposit Amount:</label>
               <input id="deposit" class="form-control" type="text">
@@ -36,6 +38,7 @@
               <input id="withdraw" class="form-control" type="text">
             </div>
             <button type="submit" class="btn btn info">Click to complete</button>
+          </form>
         </div>
       </form>
 
